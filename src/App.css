@@ -1,0 +1,53 @@
+.mainBlock {
+    display: flex;
+}
+.groupBlock {
+    text-align: center;
+    width: 15em;
+    height: 100vh;
+    -webkit-box-shadow: 3px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    cursor: pointer;
+    border-bottom: solid 1px #000
+}
+ul li:hover {
+    background: rgba(0, 0, 0, .5);
+}
+.groupBlock ul li {
+    padding-right: 8em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.todoBlock {
+    width: auto;
+    height: 100vh;
+}
+
+.todoBlock ul {
+    width: 83vw;
+    list-style: none;
+    padding-top: 5em;
+}
+
+.todoBlock ul li:first-child {
+    border-top: 1px solid #000;
+}
+
+.todoBlock ul li {
+
+    padding-left: 5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.complited {
+    text-decoration: line-through;
+}

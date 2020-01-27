@@ -1,0 +1,26 @@
+.todoBlock {
+    width: auto;
+    height: 100vh;
+}
+
+.todoBlock ul {
+    width: 83vw;
+    list-style: none;
+    padding-top: 5em;
+}
+
+.todoBlock ul li:first-child {
+    border-top: 1px solid #000;
+}
+
+.todoBlock ul li {
+
+    padding-left: 5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-bottom: solid 1px #000
+}
+
+.todoBlock ul li:hover {
+    background: rgba(0, 0, 0, .5);
+}
